@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/sem3/COLab/programMemory/ProgramMemory.xst" -ofn "F:/sem3/COLab/programMemory/ProgramMemory.syr" 

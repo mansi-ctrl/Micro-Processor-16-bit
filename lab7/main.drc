@@ -1,0 +1,25 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Thu Nov 14 14:15:32 2019
+
+drc -z main.ncd main.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   lab1/op_dec[5]_op_dec[5]_OR_53_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   lab1/op_dec[5]_op_dec[5]_OR_46_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <lab3a/Mram_regbank3_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <lab3a/Mram_regbank2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <lab3a/Mram_regbank12_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <lab3a/Mram_regbank11_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 6 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

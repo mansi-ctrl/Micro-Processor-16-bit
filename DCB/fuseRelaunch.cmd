@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "F:/sem3/COLab/DCB/DCB_tb_isim_beh.exe" -prj "F:/sem3/COLab/DCB/DCB_tb_beh.prj" "work.DCB_tb" "work.glbl" 

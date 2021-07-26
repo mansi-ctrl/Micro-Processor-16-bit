@@ -1,0 +1,92 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/sem3/COLab/ALU/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to F:/sem3/COLab/ALU/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: ALU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\sem3\COLab\ALU\ALU.v" into library work
+Parsing module <RSA>.
+Parsing module <ALU>.
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 94: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 94: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 95: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 95: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 96: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 96: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 97: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 97: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 98: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 98: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 99: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 99: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 100: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 100: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 101: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 101: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 102: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 102: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 103: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 103: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 104: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 104: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 105: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 105: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 106: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 106: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 107: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 107: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 108: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 108: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 109: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 109: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 110: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 110: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 111: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 111: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 112: Assignment sub expression is allowed only in System Verilog mode
+ERROR:HDLCompiler:1660 - "F:\sem3\COLab\ALU\ALU.v" Line 112: Procedural assignment to a non-register flag_ex is not permitted, left-hand side should be reg/integer/time/genvar
+WARNING:HDLCompiler:1501 - "F:\sem3\COLab\ALU\ALU.v" Line 113: Assignment sub expression is allowed only in System Verilog mode
+Sorry, too many errors..
+--> 
+
+Total memory usage is 4503928 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

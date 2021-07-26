@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\sem3\COLab\lab7\main.ncd
+OUTFILE=F:\sem3\COLab\lab7\main.bit
+FAMILY=Artix7
+PART=xc7a100t-1csg324
+WORKINGDIR=F:\sem3\COLab\lab7
+LICENSE=WebPack
+USER_INFO=210849691_0_0_828

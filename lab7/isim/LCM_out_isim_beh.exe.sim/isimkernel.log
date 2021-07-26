@@ -1,0 +1,29 @@
+Command line:
+   LCM_out_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56009
+
+Fri Dec 13 10:17:11 2019
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5159.87 Meg
+
+ Total Signals          : 42
+ Total Nets             : 193
+ Total Signal Drivers   : 22
+ Total Blocks           : 8
+ Total Primitive Blocks : 5
+ Total Processes        : 29
+ Total Traceable Variables  : 38
+ Total Scalar Nets and Variables : 576
+Total Line Count : 83
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5002.59 Meg
+
+Fri Dec 13 10:18:55 2019
+

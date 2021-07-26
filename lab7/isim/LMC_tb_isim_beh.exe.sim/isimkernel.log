@@ -1,0 +1,29 @@
+Command line:
+   LMC_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  56042
+
+Fri Dec 13 10:26:53 2019
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5159.93 Meg
+
+ Total Signals          : 42
+ Total Nets             : 273
+ Total Signal Drivers   : 30
+ Total Blocks           : 8
+ Total Primitive Blocks : 5
+ Total Processes        : 37
+ Total Traceable Variables  : 41
+ Total Scalar Nets and Variables : 704
+Total Line Count : 83
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5159.93 Meg
+
+Fri Dec 13 10:27:08 2019
+

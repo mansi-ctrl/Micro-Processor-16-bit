@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "F:/sem3/COLab/ALU/addition.xst" -ofn "F:/sem3/COLab/ALU/addition.syr" 
+xst -intstyle ise -ifn "F:/sem3/COLab/ALU/addition.xst" -ofn "F:/sem3/COLab/ALU/addition.syr" 

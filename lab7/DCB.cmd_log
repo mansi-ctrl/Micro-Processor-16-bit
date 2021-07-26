@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "F:/sem3/COLab/lab7/DCB.xst" -ofn "F:/sem3/COLab/lab7/DCB.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7a100t-csg324-1 DCB.ngc DCB.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o DCB_map.ncd DCB.ngd DCB.pcf 
+par -w -intstyle ise -ol high -mt off DCB_map.ncd DCB.ncd DCB.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml DCB.twx DCB.ncd -o DCB.twr DCB.pcf 
+bitgen -intstyle ise -f DCB.ut DCB.ncd 
+xst -intstyle ise -ifn "F:/sem3/COLab/lab7/DCB.xst" -ofn "F:/sem3/COLab/lab7/DCB.syr" 

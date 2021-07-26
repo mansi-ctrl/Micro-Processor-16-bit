@@ -1,0 +1,4 @@
+verilog work "multiplier.v"
+verilog work "GCD.v"
+verilog work "Division.v"
+verilog work "LCM.v"
